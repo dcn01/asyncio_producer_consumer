@@ -2,10 +2,9 @@
 """
 import asyncio
 import logging
-import sys
 from asyncio import Future, Queue
 from dataclasses import dataclass, field
-from typing import Callable, Awaitable, Dict
+from typing import Awaitable, Callable, Dict
 
 logger = logging.getLogger(__name__)
 
