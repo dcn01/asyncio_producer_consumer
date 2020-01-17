@@ -2,10 +2,10 @@
 https://asyncio.readthedocs.io/en/latest/producer_consumer.html
 """
 import asyncio
-from asyncio import wait_for, QueueEmpty
+from asyncio import QueueEmpty, wait_for
 from itertools import tee
-import pytest
 
+import pytest
 from yoyonel.async_producer_consumer.async_producer_consumer import (
     ASyncProducerConsumer, do_shutdown, generic_consumer
 )
